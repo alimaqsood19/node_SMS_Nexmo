@@ -1,0 +1,21 @@
+
+.container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+
+}
+
+#numberField {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+#textField {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
