@@ -54,6 +54,7 @@ app.post('/', (req, res) => {
                 id: responseData.messages[0]['message-id'], number: responseData.messages[0]['to']
             };
             io.emit('smsStatus', data);
+            res.send(data);
         }
     );
 });
