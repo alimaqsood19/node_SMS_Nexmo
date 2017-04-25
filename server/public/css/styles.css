@@ -5,6 +5,7 @@
     text-align: center;
     width: 50%;
     margin: 0 auto;
+    margin-top: 245px;
 
 }
 
@@ -22,4 +23,12 @@
 
 #sendButton {
     margin-top: 10px;
+}
+
+body {
+    background-image: url("background.jpg");
+    background-repeat: repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100%;
 }
